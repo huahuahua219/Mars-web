@@ -1,5 +1,5 @@
 ---
-title: Three Percent Is Enough: Semi-Supervised Martian Segmentation Labeling with Active Learning
+title: Three Percent Is Enough Semi-Supervised Martian Segmentation Labeling with Active Learning
 authors:
    
 affiliations:
