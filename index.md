@@ -1,30 +1,43 @@
 ---
-title: Three Percent Is Enough Semi-Supervised Martian Segmentation Labeling with Active Learning
+layout: project_page
+permalink: /
+
+title: Three Percent Is Enough, Semi-Supervised Martian Segmentation Labeling with Active Learning
 authors:
    
 affiliations:
+   
+paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
+code: https://github.com/topics/turing-machines
+data: https://huggingface.co/docs/datasets
+---
+
 <!-- Using HTML to center the abstract -->
 <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
         <h2>Abstract</h2>
         <div class="content has-text-justified">
-Accurate, large-scale Martian segmentation datasets are a cornerstone
-of autonomous scene understanding in support of exploration and
-navigation in Martian environments. However, high-quality segmentation
-labeling on planetary images requires annotators to have professional
-extraterrestrial geological knowledge, and even skilled annotators need
-a long time to label a single image in detail. In this paper, we
-propose a semi-automatic annotation method for the Mars scene
-segmentation. By integrating a semi-supervised segmentation network
-architecture with an active learning strategy, our framework achieves
-near-fully supervised performance using a minimal amount of manual
-annotations, significantly reducing dependence on human experts.
-Experiments on the S5Mars dataset show that our framework reaches
-76.73% on mIoU, which is 95.73% of the accuracy of the official S5Mars
-semi-supervised model trained on 5000 labeled images, while requiring
-only 3.38% of the manual annotations (169 images). It even surpasses
-the performance of the official model trained with 20% labeled data,
-demonstrating a substantial improvement in label efficiency. 
+Accurate and large-scale Martian segmentation
+datasets are the cornerstone for scientific tasks such as ex-
+ploration and navigation in the Martian environment. The
+current released real-world Martian segmentation datasets are
+(in thousand scale and) processed through manual annotation.
+However, high-quality segmentation labeling on planetary images
+require annotators to have professional extraterrestrial geological
+knowledge, and even skilled annotators need a long time to
+label a single image in detail. In this paper, we propose a semi-
+automatic annotation method for the Mars scene segmentation
+task. By integrating a semi-supervised segmentation network
+architecture with an active learning strategy, our framework
+achieves near-fully supervised performance using a minimal
+amount of manual annotations, significantly reducing dependence
+on human experts. Experiments on S$^5$Mars datasets show that
+our framework reaches 95.73% of the accuracy of the official
+model trained on 5000 labeled images, while requiring only
+3.38% of the manual annotations (169 images), demonstrating a
+substantial improvement in label efficiency. Meanwhile, due to the
+integration of deep learning, our method can update constantly
+to generate new images of Mars scenes for quick new dataset
 construction.
         </div>
     </div>
