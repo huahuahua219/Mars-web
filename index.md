@@ -1,7 +1,4 @@
 ---
-layout: project_page
-permalink: /
-
 title: Three Percent Is Enough: Semi-Supervised Martian Segmentation Labeling with Active Learning
 authors:
    
